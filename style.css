@@ -1,0 +1,13 @@
+/* background color: #f1ebe3 */
+/* accent color: #f45999 */
+/* darker accent color: #c3317f*/
+
+body{
+    background-color: #f1ebe3;
+}
+.nav-link{
+    color: #f45999;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #c3317f;
+    paint-order: stroke fill;
+}
