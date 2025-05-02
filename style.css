@@ -5,55 +5,60 @@
 /* Titles: font-family: "Shippori Mincho", serif;*/
 /* Blurbs: font-family: "Be Vietnam Pro", sans-serif;*/
 
-body{
-    background-color: #f1ebe3;
-}
-.nav-link{
-    color: #f45999;
-    font-family: "Shippori Mincho", serif;
-    transition: 0.5s;
-}
-.nav-link:hover{
-    color: #c3317f;
-    font-weight: 900;
-    transition: 0.5s;
-    letter-spacing: 0.5px;
-}
-.active{
-    color: #c3317f !important;
-    font-weight: 900;
-    letter-spacing: 0.5px;
-text-decoration: underline;
+body {
+  background-color: #f1ebe3;
 }
 
-.myname{
-    font-family: "Pinyon Script", cursive;
-    text-align: center;
-    font-size: 5em;
-    padding-top: 10%;
-    color: #f45999;
-  }
- 
-  .header-pic {
-    padding: 6%; 
-  }
-  .pic{
-  display: flex;
-  align-items: center;
+.nav-link {
+  color: #f45999;
+  font-family: "Shippori Mincho", serif;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #c3317f;
+  font-weight: 900;
+  transition: 0.5s;
+  letter-spacing: 0.5px;
+}
+
+.active {
+  color: #c3317f !important;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+
+.myname {
+  font-family: "Pinyon Script", cursive;
+  text-align: center;
+  font-size: clamp(50px, 6vw, 150px);
+  padding-top: 10%;
+  color: #f45999;
+}
+
+.header-pic {
+  padding: 6%;
+}
+
+.pic {
   border: solid 2px #f45999;
   border-radius: 47%;
+  height: clamp(400px, 10vw, 500px);
+  width: clamp(350px, 10vw, 400px);
+  object-fit: cover;
+}
 
-  }
-  .blurb{
-    font-family: "Shippori Mincho", serif;
-    font-size: 1.3em;
-    text-align: center;
-    padding: 3%;
-  margin: 3%;
-    max-height:475px;
-    color: #f45999;
-  }
-  .blurbb{
- 
-    margin-top: 3%;
-  }
+.blurb {
+  font-family: "Shippori Mincho", serif;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 3%;
+  max-height: 475px;
+  color: #f45999;
+}
+
+.blurbb {
+
+  margin-top: 3%;
+}
