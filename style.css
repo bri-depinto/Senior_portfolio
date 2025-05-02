@@ -32,7 +32,7 @@ body {
 .myname {
   font-family: "Pinyon Script", cursive;
   text-align: center;
-  font-size: clamp(50px, 6vw, 150px);
+  font-size: clamp(50px, 7vw, 150px);
   padding-top: 10%;
   color: #f45999;
 }
@@ -43,10 +43,12 @@ body {
 
 .pic {
   border: solid 2px #f45999;
-  border-radius: 47%;
-  height: clamp(400px, 10vw, 500px);
-  width: clamp(350px, 10vw, 400px);
+  border-radius: 50%;
+height: 400px;
+width: 600px;
   object-fit: cover;
+  box-shadow: #b4b4b4 0px 4px 8px 0px, #767575 4px 4px 16px 0px;
+
 }
 
 .blurb {
@@ -61,4 +63,25 @@ body {
 .blurbb {
 
   margin-top: 3%;
+}
+.hitext{
+  font-family: "Shippori Mincho", serif;
+  color: #f45999;
+  font-size: clamp(30px, 4vw, 150px);
+  
+}
+.try{
+  vertical-align: middle;
+}
+.aboutmepic{
+  border: solid 2px #f45999;
+  box-shadow: #b4b4b4 0px 4px 8px 0px, #767575 4px 4px 16px 0px;
+width: 305px;
+height: 200px;
+}
+.littleblurb{
+  color: #f45999;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
 }
