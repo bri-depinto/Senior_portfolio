@@ -32,9 +32,28 @@ body {
 .myname {
   font-family: "Pinyon Script", cursive;
   text-align: center;
-  font-size: clamp(50px, 7vw, 150px);
+  font-size: clamp(50px, 5.9vw, 120px);
   padding-top: 10%;
   color: #f45999;
+}
+
+.explorebutton{
+  color: #f45999;
+background-color: #f1ebe3;
+border: solid 2px #f45999;
+border-radius: 50%;
+padding: 15px;
+font-family: "Be Vietnam Pro", sans-serif;
+transition: 0.3s;
+}
+.explorebutton:hover{
+  color: #f1ebe3;
+  background-color: #f45999;
+  border: solid 2px #f45999;
+  border-radius: 50%;
+  padding: 15px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  transition: 0.3s;
 }
 
 .header-pic {
@@ -43,10 +62,10 @@ body {
 
 .pic {
   border: solid 2px #f45999;
-  border-radius: 50%;
+  border-radius: 20%;
 height: 400px;
 width: 600px;
-  object-fit: cover;
+  bject-fit: cover;
   box-shadow: #b4b4b4 0px 4px 8px 0px, #767575 4px 4px 16px 0px;
 
 }
