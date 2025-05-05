@@ -32,7 +32,7 @@ body {
 .myname {
   font-family: "Pinyon Script", cursive;
   text-align: center;
-  font-size: clamp(50px, 5.9vw, 120px);
+  font-size: clamp(50px, 8vw, 250px);
   padding-top: 10%;
   color: #f45999;
 }
@@ -65,7 +65,7 @@ transition: 0.3s;
   border-radius: 20%;
 height: 400px;
 width: 600px;
-  bject-fit: cover;
+  object-fit: cover;
   box-shadow: #b4b4b4 0px 4px 8px 0px, #767575 4px 4px 16px 0px;
 
 }
@@ -74,7 +74,7 @@ width: 600px;
   font-family: "Shippori Mincho", serif;
   font-size: 1.3em;
   text-align: center;
-  padding: 3%;
+  padding: 1%;
   max-height: 475px;
   color: #f45999;
 }
