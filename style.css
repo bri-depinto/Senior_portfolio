@@ -21,6 +21,10 @@ body {
 	transition: 0.5s;
 	letter-spacing: 0.5px;
 }
+.broswerpic{
+	height: 50px;
+	width: 50px;
+}
 
 /*hamburger menu css*/
 
@@ -111,8 +115,8 @@ body {
 }
 
 .logoo {
-	height: 85px;
-	width: 85px;
+	height: 135px;
+	width: 135px;
 }
 
 .explorebutton {
@@ -440,4 +444,39 @@ figure>div {
 	scroll-behavior: smooth;
 	position: relative;
 
+}
+.newpinksection{
+	background-color: #f45999;
+margin-top: 150px;
+}
+.codingimages{
+	width: 80px;
+	height: 80px;
+}
+.titleskills{
+padding: 20px;
+color: #f1ebe3;
+font-family: "Pinyon Script", cursive;
+font-size: clamp(50px, 5vw, 90px);
+}
+.bottomsection{
+	margin-top: 100px;
+}
+.exploremy{
+	font-family: "Pinyon Script", cursive;
+	color: #f45999;
+	font-size: clamp(75px, 7vw, 150px);
+}
+.explorebuttonsecond{
+	color: #f45999;
+	background-color: #f1ebe3;
+	border: solid 2px #f45999;
+	border-radius: 50%;
+	padding: 12px;
+	font-family: "Be Vietnam Pro", sans-serif;
+	transition: 0.3s;
+	margin-top: 9px;
+	font-size: 35px;
+	height: 300px;
+	width: 200px;
 }
