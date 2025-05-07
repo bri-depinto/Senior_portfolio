@@ -467,16 +467,47 @@ font-size: clamp(50px, 5vw, 90px);
 	color: #f45999;
 	font-size: clamp(75px, 7vw, 150px);
 }
-.explorebuttonsecond{
-	color: #f45999;
-	background-color: #f1ebe3;
-	border: solid 2px #f45999;
-	border-radius: 50%;
-	padding: 12px;
-	font-family: "Be Vietnam Pro", sans-serif;
-	transition: 0.3s;
-	margin-top: 9px;
-	font-size: 35px;
-	height: 300px;
-	width: 200px;
-}
+.box {
+	background: #f1ebe3;
+	padding: 16px 24px;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.01);
+  
+	&::after {
+	  position: absolute;
+	  content: "";
+	  top: 15px;
+	  left: 0;
+	  right: 0;
+	  z-index: -1;
+	  height: 100%;
+	  width: 100%;
+	  transform: scale(0.9) translateZ(0);
+	  filter: blur(15px);
+	  background: linear-gradient(
+		to left,
+		#ff5770,
+		#e4428d,
+		#c42da8,
+		#9e16c3,
+		#f45999,
+		#9e16c3,
+		#c42da8,
+		#e4428d,
+		#ff5770
+	  );
+	  background-size: 200% 200%;
+	  animation: animateGlow 1.25s linear infinite;
+	}
+  }
+  
+  @keyframes animateGlow {
+	0% {
+	  background-position: 0% 50%;
+	}
+	100% {
+	  background-position: 200% 50%;
+	}
+  }
+  
