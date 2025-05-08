@@ -510,4 +510,18 @@ font-size: clamp(50px, 5vw, 90px);
 	  background-position: 200% 50%;
 	}
   }
-  
+  .imageheadings{
+	color: #f1ebe3;
+	font-family: "Shippori Mincho", serif;
+  }
+  .minwords{
+	color: #f1ebe3;
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-size: 15px;
+  }
+  .titlesection{
+	margin-top: 30px;
+  }
+  .aboutmesection{
+	margin-top: 140px;
+  }
