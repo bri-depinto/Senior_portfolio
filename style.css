@@ -588,3 +588,61 @@ content: '';
     opacity: 0;
   }
 }
+.line{
+border: solid #fa5796 3px;
+margin-top: -2%;
+opacity: 100%;
+margin-right: 100px;
+margin-left: 100px;
+margin-top: 35px;
+}
+
+/* footer css */
+
+footer {
+    background-color: #f1ebe3;
+    color: #fa5796;
+    margin-top: 75px;
+    padding: 20px 50px;
+}
+
+.footer-text {
+    font-size: 18px;
+font-family: "Shippori Mincho", serif;
+    font-weight: 100 !important;
+	  color: #fa5796;
+}
+
+.footer-tech-ed {
+ 	font-family: "Pinyon Script", cursive;
+    font-weight: 900;
+    margin: 0;
+    font-size: clamp(40px, 4vw, 150px);
+color: #c3317f;
+}
+
+
+.website,
+.place,
+.email,
+.phone {
+    font-size: clamp(20px, 2vw, 150px) !important;
+	color: #fa5796;
+}
+
+.link {
+    color: #c3317f !important;
+    font-family: "Fira Sans Condensed", serif;
+    transition: 0.2s;
+	text-decoration: underline;
+}
+
+.link:hover {
+    color: #fa5796 !important;
+    transition: 0.2s;
+}
+
+.footer-image {
+    width: 150px;
+    height: 150px;
+}
