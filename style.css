@@ -9,6 +9,15 @@ body {
 	background-color: #f1ebe3;
 }
 
+.navbar {
+    transition: all 0.25s;
+}
+
+.navbar-scrolled {
+    background-color: #f1ebe3;
+    border-bottom: #c3317f 4px solid;
+}
+
 .nav-link {
 	color: #f45999;
 	font-family: "Shippori Mincho", serif;

@@ -24,5 +24,28 @@
 	};
 })();
 
+let nav = document.querySelector('.navbar');
+let navHeight = parseInt(getComputedStyle(nav).height, 10);
+
+// Add scroll event listener
+window.addEventListener('scroll', () => {
+    if (window.scrollY > navHeight - (navHeight * 0.8)) {
+        nav.classList.add('navbar-scrolled');
+    } else {
+        nav.classList.remove('navbar-scrolled');
+    }
+});
+
+// Button on scroll function that does not cut off div
+function scrollToSection(id) {
+  const element = document.getElementById(id);
+  const offset = navHeight + 75;
+  const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+  window.scrollTo({
+      top: elementPosition - offset,
+      behavior: "smooth"
+  });
+}
+
 
   
