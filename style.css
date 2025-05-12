@@ -10,12 +10,17 @@ body {
 }
 
 .navbar {
-    transition: all 0.25s;
+	transition: all 0.25s;
+}
+
+.navbar-brand img {
+width: clamp(80px, 11vw, 90px);
+  height: clamp(80px, 11vw, 90px);
 }
 
 .navbar-scrolled {
-    background-color: #f1ebe3;
-    border-bottom: #c3317f 4px solid;
+	background-color: #f1ebe3;
+	border-bottom: #c3317f 4px solid;
 }
 
 .nav-link {
@@ -30,10 +35,12 @@ body {
 	transition: 0.5s;
 	letter-spacing: 0.5px;
 }
-.nav-link:focus{
+
+.nav-link:focus {
 	color: #f45999;
 }
-.broswerpic{
+
+.broswerpic {
 	height: 50px;
 	width: 50px;
 }
@@ -222,7 +229,6 @@ main {
 	align-items: center;
 	max-width: 100vw;
 	min-height: 100vh;
-	overflow-x: hidden;
 	overscroll-behavior-x: none;
 	overscroll-behavior-y: none;
 	scroll-behavior: smooth;
@@ -233,7 +239,7 @@ p {
 }
 
 a {
-	color: crimson;
+	color: rgb(250, 250, 250);
 	text-decoration: none;
 }
 
@@ -334,7 +340,6 @@ img {
 	background-size: cover;
 	background-position: center;
 	background-blend-mode: multiply;
-
 	transform-origin: center 0.22rem;
 	will-change: transform;
 	break-inside: avoid;
@@ -457,168 +462,179 @@ figure>div {
 	position: relative;
 
 }
-.newpinksection{
+
+.newpinksection {
 	background-color: #f45999;
-margin-top: 150px;
+	margin-top: 150px;
 }
-.codingimages{
+
+.codingimages {
 	width: 80px;
 	height: 80px;
 }
-.titleskills{
-padding: 20px;
-color: #f1ebe3;
-font-family: "Pinyon Script", cursive;
-font-size: clamp(50px, 5vw, 90px);
+
+.titleskills {
+	padding: 20px;
+	color: #f1ebe3;
+	font-family: "Pinyon Script", cursive;
+	font-size: clamp(50px, 5vw, 90px);
 }
-.bottomsection{
+
+.bottomsection {
 	margin-top: 100px;
 }
-.exploremy{
+
+.exploremy {
 	font-family: "Pinyon Script", cursive;
 	color: #f45999;
 	font-size: clamp(75px, 7vw, 150px);
 }
 
-  .imageheadings{
+.imageheadings {
 	color: #f1ebe3;
 	font-family: "Shippori Mincho", serif;
-  }
-  .minwords{
+}
+
+.minwords {
 	color: #f1ebe3;
 	font-family: "Be Vietnam Pro", sans-serif;
 	font-weight: 200;
 	font-size: 15px;
 	padding-left: 25px;
 	padding-right: 25px;
-  }
-  .titlesection{
+}
+
+.titlesection {
 	margin-top: 30px;
-  }
-  .aboutmesection{
+}
+
+.aboutmesection {
 	margin-top: 140px;
-  }
-  .wrap {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.wrap {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .button {
-  min-width: 300px;
-  min-height: 60px;
-  display: inline-flex;
- font-family: "Be Vietnam Pro", sans-serif;
-
-  font-size: 22px;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1.3px;
-  font-weight: 300;
-  color: #ffffff;
-  background: #f45999;
-background: linear-gradient(90deg, #f45999 0%, #c3317f 100%);
-  border: none;
-  border-radius: 1000px;
-  box-shadow: 12px 12px 24px #f45999;
-  transition: all 0.3s ease-in-out 0s;
-  cursor: pointer;
-  outline: none;
-  position: relative;
-  padding: 10px;
-  }
+	width: clamp(200px, 20vw, 300px);
+	min-height: 60px;
+	display: inline-flex;
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-size: 22px;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1.3px;
+	font-weight: 300;
+	color: #ffffff;
+	background: #f45999;
+	background: linear-gradient(90deg, #f45999 0%, #c3317f 100%);
+	border: none;
+	border-radius: 1000px;
+	box-shadow: 12px 12px 24px #f45999;
+	transition: all 0.3s ease-in-out 0s;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	padding: 10px;
+}
 
 .button::before {
-content: '';
-  border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
-  border: 6px solid #c3317f;
-  box-shadow: 0 0 60px #f45999;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: all .3s ease-in-out 0s;
+	content: '';
+	border-radius: 1000px;
+	min-width: calc(clamp(200px, 20vw, 300px) + 12px);
+	min-height: calc(60px + 12px);
+	border: 6px solid #c3317f;
+	box-shadow: 0 0 60px #f45999;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: all .3s ease-in-out 0s;
 }
 
-.button:hover, 
+.button:hover,
 .button:focus {
-  color: #ffffff;
-  transform: translateY(-6px);
+	color: #ffffff;
+	transform: translateY(-6px);
 }
 
-.button:hover::before, 
+.button:hover::before,
 .button:focus::before {
-  opacity: 1;
+	opacity: 1;
 }
 
 .button::after {
-  content: '';
-  width: 30px; height: 30px;
-  border-radius: 100%;
-  border: 6px solid  #f45999;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: ring 1.5s infinite;
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	border: 6px solid #f45999;
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: ring 1.5s infinite;
 }
 
-.button:hover::after, 
+.button:hover::after,
 .button:focus::after {
-  animation: none;
-  display: none;
+	animation: none;
+	display: none;
 }
 
 @keyframes ring {
-  0% {
-    width: 30px;
-    height: 30px;
-    opacity: 1;
-  }
-  100% {
-    width: 300px;
-    height: 300px;
-    opacity: 0;
-  }
+	0% {
+		width: 30px;
+		height: 30px;
+		opacity: 1;
+	}
+
+	100% {
+		width: clamp(200px, 20vw, 300px);
+		height: clamp(200px, 20vw, 300px);
+		opacity: 0;
+	}
 }
-.line{
-border: solid #fa5796 3px;
-margin-top: -2%;
-opacity: 100%;
-margin-right: 100px;
-margin-left: 100px;
-margin-top: 35px;
+
+.line {
+	border: solid #fa5796 3px;
+	margin-top: -2%;
+	opacity: 100%;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 35px;
 }
 
 /* footer css */
 
 footer {
-    background-color: #f1ebe3;
-    color: #fa5796;
-    margin-top: 75px;
-    padding: 20px 50px;
+	background-color: #f1ebe3;
+	color: #fa5796;
+	margin-top: 75px;
+	padding: 20px 50px;
 }
 
 .footer-text {
-    font-size: 18px;
-font-family: "Shippori Mincho", serif;
-    font-weight: 100 !important;
-	  color: #fa5796;
+	font-size: 18px;
+	font-family: "Shippori Mincho", serif;
+	font-weight: 100 !important;
+	color: #fa5796;
 }
 
 .footer-tech-ed {
- 	font-family: "Pinyon Script", cursive;
-    font-weight: 900;
-    margin: 0;
-    font-size: clamp(40px, 4vw, 150px);
-color: #c3317f;
+	font-family: "Pinyon Script", cursive;
+	font-weight: 900;
+	margin: 0;
+	font-size: clamp(40px, 4vw, 150px);
+	color: #c3317f;
 }
 
 
@@ -626,23 +642,23 @@ color: #c3317f;
 .place,
 .email,
 .phone {
-    font-size: clamp(20px, 2vw, 150px) !important;
+	font-size: clamp(20px, 2vw, 150px) !important;
 	color: #fa5796;
 }
 
 .link {
-    color: #c3317f !important;
-    font-family: "Fira Sans Condensed", serif;
-    transition: 0.2s;
+	color: #c3317f !important;
+	font-family: "Fira Sans Condensed", serif;
+	transition: 0.2s;
 	text-decoration: underline;
 }
 
 .link:hover {
-    color: #fa5796 !important;
-    transition: 0.2s;
+	color: #fa5796 !important;
+	transition: 0.2s;
 }
 
 .footer-image {
-    width: 150px;
-    height: 150px;
+	width: clamp(150px, 10vw, 700px);
+	height: clamp(150px, 10vw, 700px);
 }

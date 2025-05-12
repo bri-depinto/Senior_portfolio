@@ -39,7 +39,7 @@ window.addEventListener('scroll', () => {
 // Button on scroll function that does not cut off div
 function scrollToSection(id) {
   const element = document.getElementById(id);
-  const offset = navHeight + 75;
+  const offset = navHeight + 125;
   const elementPosition = element.getBoundingClientRect().top + window.scrollY;
   window.scrollTo({
       top: elementPosition - offset,
