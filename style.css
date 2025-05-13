@@ -385,7 +385,7 @@ figure img {
 	z-index: 1;
 }
 
-figure figcaption {
+figure a {
 	font-size: 14px;
 	font-weight: 400;
 	overflow: hidden;
