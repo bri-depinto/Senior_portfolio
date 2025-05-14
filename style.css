@@ -242,22 +242,27 @@ p {
 	line-height: 1;
 }
 
-a {
+.wordsatbottomofcard{
 	color: #fa5796;
 	font-size: 10px;
-	transition: 0.3s;
+	
 	font-family: "Be Vietnam Pro", sans-serif;
 	font-weight:300;
 	text-decoration: none;
+		font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	z-index: 1;
+	transition: 0.3s;
 }
-a:hover{
+.wordsatbottomofcard:hover{
 	color: #c3317f;
 	text-decoration:wavy 2px;
-	transition: 0.3s;
 	text-decoration-style: wavy;
 text-decoration-line: underline;
 text-decoration-skip-ink: none;
-transform: scale(5px, 5px);
+transition: 0.3s;
 }
 img {
 	-moz-user-select: none;
@@ -415,14 +420,6 @@ figure img {
 	z-index: 1;
 }
 
-figure a {
-	font-size: 14px;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	z-index: 1;
-	
-}
 
 
 figure small {
