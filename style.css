@@ -682,3 +682,12 @@ footer {
 	width: clamp(150px, 10vw, 700px);
 	height: clamp(150px, 10vw, 700px);
 }
+.task{
+	color: #fa5796;
+	font-family: "Pinyon Script", cursive;
+}
+.descriptiontext{
+	color: #fa5796;
+	font-family: "Shippori Mincho", serif;
+	font-weight: 100;
+}
