@@ -1,3 +1,12 @@
+$(document).ready(function () {
+    $('.webimage').on('click',() =>{
+    console.log("clicked")
+    $('.task').fadeIn();
+    $('.descriptiontext').fadeIn();
+ 
+});
+});
+
 const vue_app = Vue.createApp({
       data() {
           return {
@@ -67,22 +76,4 @@ function scrollToSection(id) {
 
 
 
-$('.webimage').on('click',() =>{
-    $('.webimage').hide();
-    $('.task').fadeIn();
-    $('.descriptiontext').fadeIn();
- 
-});
 
-$('.graveoneinfo').on('click',() =>{
-    $('.graveonepic').fadeIn();
-    $('.graveoneinfo').hide();
-    $('.graveonetitle').hide();
-    $('.gravedivone').css('background-color', 'black');
-});
-$('.graveonetitle').on('click',() =>{
-    $('.graveonepic').fadeIn();
-    $('.graveoneinfo').hide();
-    $('.graveonetitle').hide();
-    $('.gravedivone').css('background-color', 'black');
-});
