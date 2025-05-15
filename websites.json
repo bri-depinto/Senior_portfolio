@@ -1,58 +1,74 @@
 [
     {
+        
         "name": "On My Birthday...",
         "link": "https://bri-depinto.github.io/january-birthday/",
         "img": "images/onmybday.png",
         "alt":"",
         "description": "Use Javascript to change elements on the page. Use specific events that happened on your birthday!"
+     
     },
     {
+      
         "name": "Rock, Paper, Scissors",
         "link": "https://bri-depinto.github.io/february-rock.paper.scissors/",
         "img": "images/rockpaper.png",
         "alt":"",
         "description": "Use Javascript to program the computer as an opponet to play a game of rock, paper, scissors!"
+          
     },
     {
+     
         "name": "Career: Marine Biologist",
         "link": "https://bri-depinto.github.io/april-future/",
         "img": "images/marine.png",
         "alt":"",
         "description": "Explore a future career you may want to pursue and make an interactive website. Include pictures, videos, information and an eye-appealing design."
+           
     },
     {
+    
         "name": " College Recruitment",
         "link": "https://bri-depinto.github.io/College-Recruitment/",
         "img": "images/rutgers.png",
         "alt":"",
         "description": "Choose a college and create a recruitment site. Use eye-appealing visuals and Javascript. "
+           
     },
     {
+       
         "name": "Trunk or Treat",
         "link": "https://bri-depinto.github.io/Halloween-Truck-or-Treat/",
         "img": "images/trunkortreat.png",
         "alt":"",
         "description": "Make a website using JQuery and Javascript to showcase Marlboro High School's Trunk or Treat Event. Include important information and pictures."
+           
     },
     {
+     
         "name": "Lil Bird Toy Company",
         "link": "https://kylerabkin61.github.io/Final-Project/",
         "img": "images/lilbird.png",
         "alt":"",
         "description": "Create a webpage for a mock toy company. Include important information and use Javascript to display elements (Co-worked with Kyle Rabkin)."
+          
     },
     {
+        
         "name": "Marlboro Tech Ed",
         "link": "https://kylerabkin61.github.io/Marlboro-Tech-Home-Page/",
         "img": "images/bwing.png",
         "alt":"",
         "description": "Create a homepage for Marlboro High School Tech Department. Include many interactive elements and Javascript (Co-worked with Kyle Rabkin)."
+           
     },
     {
+        
         "name": " Florentino's Deli",
         "link": "https://bri-depinto.github.io/Florentinos_website/",
         "img": "images/florentinos.png",
         "alt":"",
         "description": "Contact a client and have meetings/disscussions to create a webpage for them. Use Bootstrap for a responsive site and include aspects of Javascript."
+             
     }
 ]

@@ -429,7 +429,7 @@ figure img {
 	display: block;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	z-index: 1;
+	z-index: 3;
 }
 
 
@@ -690,4 +690,8 @@ footer {
 	color: #fa5796;
 	font-family: "Shippori Mincho", serif;
 	font-weight: 100;
+}
+.task,
+.descriptiontext{
+	display: none;
 }

@@ -66,4 +66,23 @@ function scrollToSection(id) {
 }
 
 
-  
+
+$('.webimage').on('click',() =>{
+    $('.webimage').hide();
+    $('.task').fadeIn();
+    $('.descriptiontext').fadeIn();
+ 
+});
+
+$('.graveoneinfo').on('click',() =>{
+    $('.graveonepic').fadeIn();
+    $('.graveoneinfo').hide();
+    $('.graveonetitle').hide();
+    $('.gravedivone').css('background-color', 'black');
+});
+$('.graveonetitle').on('click',() =>{
+    $('.graveonepic').fadeIn();
+    $('.graveoneinfo').hide();
+    $('.graveonetitle').hide();
+    $('.gravedivone').css('background-color', 'black');
+});
