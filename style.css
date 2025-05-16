@@ -281,7 +281,6 @@ img {
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	pointer-events:none;
 
 }
 #gallery {
@@ -685,13 +684,19 @@ footer {
 .task{
 	color: #fa5796;
 	font-family: "Pinyon Script", cursive;
+	font-size: 15px;
 }
 .descriptiontext{
 	color: #fa5796;
 	font-family: "Shippori Mincho", serif;
 	font-weight: 100;
+	font-size: 10px;
 }
 .task,
 .descriptiontext{
 	display: none;
+	cursor:pointer;
 }
+.webimage {
+	cursor: pointer;
+  }

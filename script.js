@@ -1,11 +1,4 @@
-$(document).ready(function () {
-    $('.webimage').on('click',() =>{
-    console.log("clicked")
-    $('.task').fadeIn();
-    $('.descriptiontext').fadeIn();
- 
-});
-});
+
 
 const vue_app = Vue.createApp({
       data() {
@@ -13,6 +6,21 @@ const vue_app = Vue.createApp({
               websites: []
           };
       },
+      mounted(){
+         // DOM is now rendered, safe to add jQuery listeners
+    $('#gallery').on('click', '.webimage', function () {
+        const $figure = $(this).closest('figure');
+        $figure.find('.task, .descriptiontext').fadeIn();
+        $figure.find('.webimage').fadeOut();
+      });
+
+      $('#gallery').on('click', '.task, .descriptiontext', function () {
+        const $figure = $(this).closest('figure');
+        $figure.find('.webimage').fadeIn();
+        $figure.find('.task, .descriptiontext').fadeOut();
+      });
+
+    },
       created() {
           fetch('websites.json')
               .then(response => response.json())
