@@ -10,14 +10,15 @@ const vue_app = Vue.createApp({
          // DOM is now rendered, safe to add jQuery listeners
     $('#gallery').on('click', '.webimage', function () {
         const $figure = $(this).closest('figure');
-        $figure.find('.task, .descriptiontext').fadeIn();
-        $figure.find('.webimage').fadeOut();
+        $figure.find('.task, .descriptiontext').toggle();
+        $figure.find('.webimage').toggle();
+        $figure.find('.pinkarrow').toggle().addClass('display-block');
       });
 
       $('#gallery').on('click', '.task, .descriptiontext', function () {
         const $figure = $(this).closest('figure');
-        $figure.find('.webimage').fadeIn();
-        $figure.find('.task, .descriptiontext').fadeOut();
+        $figure.find('.webimage').toggle();
+        $figure.find('.task, .descriptiontext, .pinkarrow').toggle();
       });
 
     },
