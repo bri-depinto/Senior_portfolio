@@ -18,7 +18,8 @@ const vue_app = Vue.createApp({
       $('#gallery').on('click', '.task, .descriptiontext', function () {
         const $figure = $(this).closest('figure');
         $figure.find('.webimage').toggle();
-        $figure.find('.task, .descriptiontext, .pinkarrow').toggle();
+        $figure.find('.task, .descriptiontext').toggle();
+         $figure.find('.pinkarrow').toggle().removeClass('display-block');
       });
 
     },

@@ -708,6 +708,7 @@ footer {
 .pinkarrow {
 	display: none;
 	cursor: pointer;
+
 }
 
 .webimage {
@@ -721,5 +722,5 @@ footer {
 }
 
 .display-block {
-	display: block;
+	display: block !important;
 }
