@@ -13,6 +13,7 @@ const vue_app = Vue.createApp({
         $figure.find('.task, .descriptiontext').toggle();
         $figure.find('.webimage').toggle();
         $figure.find('.pinkarrow').toggle().addClass('display-block');
+
       });
 
       $('#gallery').on('click', '.task, .descriptiontext', function () {
@@ -20,6 +21,7 @@ const vue_app = Vue.createApp({
         $figure.find('.webimage').toggle();
         $figure.find('.task, .descriptiontext').toggle();
          $figure.find('.pinkarrow').toggle().removeClass('display-block');
+
       });
 
     },

@@ -73,7 +73,7 @@
     <div class="container" id="vue_app">
         <div class="text-center">
             <h1 class="myworkheader"> My work: </h1>
-            <h2 class="myworkblurb"> Click on the images to learn more about the website or click on the name to visit the website!</h2>
+            <h2 class="myworkblurb"> Click on the images to learn more about the website or click on the name (below the image) to visit the website!</h2>
         </div>
 <main>
         
@@ -82,7 +82,7 @@
       <img v-bind:src="website.img" alt="website.alt" class="webimage">
       <h1 class="task"> What I was tasked with:</h1>
       <h2 class="descriptiontext">{{ website.description }}</h2>
-      <img src="images/arrowpink.png" class="pinkarrow">
+      <img src="images/arrowpink.png" class="pinkarrow"> 
       <a v-bind:href="website.link" target="_blank" class="wordsatbottomofcard">{{ website.name }}</a>
     </figure>
   </div>
