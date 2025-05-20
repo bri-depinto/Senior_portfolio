@@ -12,8 +12,8 @@ const vue_app = Vue.createApp({
         const $figure = $(this).closest('figure');
         $figure.find('.task, .descriptiontext').toggle();
         $figure.find('.webimage').toggle();
+        $figure.find('.wordsatbottomofcard').addClass('loop-animate');
         $figure.find('.pinkarrow').toggle().addClass('display-block');
-
       });
 
       $('#gallery').on('click', '.task, .descriptiontext', function () {
@@ -21,7 +21,7 @@ const vue_app = Vue.createApp({
         $figure.find('.webimage').toggle();
         $figure.find('.task, .descriptiontext').toggle();
          $figure.find('.pinkarrow').toggle().removeClass('display-block');
-
+         $figure.find('.wordsatbottomofcard').removeClass('loop-animate');
       });
 
     },
