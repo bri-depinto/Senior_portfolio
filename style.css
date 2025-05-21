@@ -255,12 +255,13 @@ p {
 	z-index: 1;
 	transition: 0.3s;
 	position: relative;
+	bottom: 0;
 	display: block;
 }
 
 .wordsatbottomofcard:hover {
 	color: #ffffff;
-	padding: 5px;
+	padding: 1px;
 	
 }
 
@@ -761,4 +762,196 @@ footer {
 	transform: translateX(-100%);
 	pointer-events: none;
 	animation:sweepBar 1.5s linear infinite;
+}
+
+
+
+
+
+
+
+/*contact css*/
+ul.b {
+  list-style-type: square;
+  list-style-position: inside;
+
+}
+
+ul li {
+  color: #c3317f;
+}
+
+ul li span {
+  color: #fa5796;
+}
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 100px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content h2 {
+  font-size: 150px;
+  font-weight: 500;
+  color: #fa5796;
+font-family: "Pinyon Script", cursive; 
+ padding-top: 0;
+}
+
+.contact .content p {
+  font-weight: 200;
+  color: #c3317f;
+font-family: "Be Vietnam Pro", sans-serif;  
+font-size: 20px;
+}
+
+
+.contact-container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa5796;
+  margin-top: 30px;
+  box-shadow: 10px 20px 36px #503b3b;
+}
+
+.contact-container .contactinfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container .contactinfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.contact-container .contactinfo .box .text {
+font-family: "Be Vietnam Pro", sans-serif;
+  display: flex;
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  font-weight: 300;
+
+}
+
+.contact-container .contactinfo .box .text h3 {
+  font-weight: 500;
+  color: #750943;
+font-family: "Pinyon Script", cursive; 
+  font-size: 75px;
+}
+
+.contact-form {
+  width: 40%;
+  padding: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+.contact-form h2 {
+  font-size: 30px;
+  color: #fa5796;
+  font-weight: 300;
+font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.contact-form .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  resize: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+.contact-form .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+  font-family: "Urbanist", sans-serif;
+}
+
+.contact-form .input-box input:focus~span,
+.contact-form .input-box input:valid~span,
+.contact-form .input-box textarea:focus~span,
+.contact-form .input-box textarea:valid~span {
+  color: #fa5796;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"] {
+  width: 100;
+  background-color: #c3317f;
+  color: white;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  transition: 0.5s;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  border-radius: 30px;
+}
+
+.contact-form .input-box input[type="submit"]:hover {
+  background-color: white;
+  color: #fa5796;
+  border: 2px solid #fa5796;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media (max-width:991px) {
+  .contact {
+    padding: 50px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-container .contactinfo {
+    margin-bottom: 40px;
+  }
+
+  .contact-container .contactinfo,
+  .contact-form {
+    width: 100%;
+  }
+}
+
+.birdie {
+  width: 200px;
 }

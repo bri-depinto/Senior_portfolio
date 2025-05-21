@@ -58,10 +58,10 @@
                         <button class="nav-link" onclick="window.location.href = 'index.html#skills';">SKILLS</button>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link activefornav" href="gallery.html">GALLERY</a>
+                        <a class="nav-link " href="gallery.html">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link activefornav" href="contact.html" >CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -70,30 +70,56 @@
 
     <!-- navbar-->
 
-    <div class="container" id="vue_app">
-        <div class="text-center">
-            <h1 class="myworkheader"> My work: </h1>
-            <h2 class="myworkblurb"> Click on the images to learn more about the website or click on the name (below the image) to visit the website!</h2>
-        </div>
-<main>
-        
-  <div id="gallery">
-    <figure v-for="website in websites" :key="website.id">
-      <img v-bind:src="website.img" alt="website.alt" class="webimage">
-      <h1 class="task"> What I was tasked with:</h1>
-      <h2 class="descriptiontext">{{ website.description }}</h2>
-      <img src="images/arrowpink.png" class="pinkarrow"> 
-      <a v-bind:href="website.link" target="_blank" class="wordsatbottomofcard">{{ website.name }}</a>
-    </figure>
-  </div>
-       
-</main>
-
-
+    <!-- contact start -->
+  <div class="contact">
+    <div class="content">
+      <h2 class="h2">Contact Me</h2>
+      <p class="p">Have any questions, concerns, or simply just want to reach out? Feel free to email me and I will respond as soon as I can! </p>
     </div>
-     <!-- CONTAINER END-->
-    
-
+    <div class="contact-container">
+      <div class="contactinfo">
+        <div class="box">
+          <div class="text">
+            <h3 class="h3 ">GitHub</h3>
+            <p class="p "> bri-depinto </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text">
+            <h3 class="h3 ">Phone Number</h3>
+            <p class="p "> (732)-272-6677</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="text">
+            <h3 class="h3 ">Email</h3>
+            <p class="p ">briannadepinto@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <h2 class="h2">Send Message</h2>
+          <div class="input-box">
+            <input type="text" name="" required="required">
+            <span class="span">Full Name</span>
+          </div>
+          <div class="input-box">
+            <input type="text" name="" required="required">
+            <span class="span">Email</span>
+          </div>
+          <div class="input-box">
+            <textarea required="required"></textarea>
+            <span class="span">Type your message</span>
+            <div class="input-box">
+              <input type="submit" name="" value="Send">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- contact end -->
 
  <hr class="line">
 
