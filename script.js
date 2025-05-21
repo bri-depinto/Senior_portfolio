@@ -86,10 +86,6 @@ function scrollToSection(id) {
   });
 }
 
-window.onload = function () {
-    document.getElementsByClassName('input-container').textContent = ''
-};
-
 function handleSubmit(event) {
     event.preventDefault();
 
