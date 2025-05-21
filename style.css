@@ -801,11 +801,11 @@ ul li span {
 }
 
 .contact .content h2 {
-  font-size: 150px;
+  font-size: 125px;
   font-weight: 500;
   color: #fa5796;
 font-family: "Pinyon Script", cursive; 
- padding-top: 0;
+ padding-top: 50px;
 }
 
 .contact .content p {
