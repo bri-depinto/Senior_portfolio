@@ -104,15 +104,16 @@
                     onsubmit="handleSubmit(event)">
                     <h2 class="h2">Send A Message:</h2>
                     <div class="input-box">
-                        <input type="text" name="" required="required">
+                        <input type="hidden" name="access_key" value="341d636b-a9c2-451d-890c-9dcea682b7d9">
+                        <input type="text" name="name" required="required">
                         <span class="span">Full Name</span>
                     </div>
                     <div class="input-box">
-                        <input type="text" name="" required="required">
+                        <input type="text" name="email" required="required">
                         <span class="span">Email</span>
                     </div>
                     <div class="input-box">
-                        <textarea required="required"></textarea>
+                        <textarea required="required" name="message"></textarea>
                         <span class="span">Type your message</span>
                         <div class="input-box">
                             <input type="submit" name="" value="Submit">
