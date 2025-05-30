@@ -951,3 +951,35 @@ font-family: "Be Vietnam Pro", sans-serif;
     width: 100%;
   }
 }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #fa5796; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-family: "Rasa", serif;
+    transition: 0.3s;
+    border: solid, 1px, #f1ebe3;
+    box-shadow: #000000 0px 4px 8px 0px, #000000 4px 4px 16px 0px;
+
+  }
+  
+  #myBtn:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+    background-color: #c3317f;
+	    border: solid, 1px, #c3317f;
+
+  }
+  #myBtn:active{
+    transform: scale(0.9);
+  }
